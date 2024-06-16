@@ -8,9 +8,9 @@
                 --text-weidht: 150px;
             }
             body {
-            background-image: url('https://tse1.mm.bing.net/th?id=OIP.5bRaHgfOfxNIGpQmaYXVFAHaEo&pid=Api&P=0&h=180'); /* Đường dẫn đến ảnh nền */
-            background-repeat: no-repeat; /* Không lặp lại ảnh nền */
-            background-size: cover; /* Ảnh nền bao phủ toàn bộ trang */
+                background-image: url('https://tse1.mm.bing.net/th?id=OIP.5bRaHgfOfxNIGpQmaYXVFAHaEo&pid=Api&P=0&h=180'); /* Đường dẫn đến ảnh nền */
+                background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+                background-size: cover; /* Ảnh nền bao phủ toàn bộ trang */
             }
             #fb{
                 width: var(--text-weidht);
@@ -64,10 +64,6 @@
                 position: relative;
                 left: 380px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
             }
-            h4{
-                position: relative;
-                left: 370px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
-            }
             #bang{
                 position: relative;
                 left: 380px; /* Di chuyển qua phải 20px so với vị trí ban đầu */
@@ -77,6 +73,18 @@
                 border: 1px;
                 border-style: solid;
                 border-color: brown;
+            }
+            #namebang{
+                position: relative;
+                left: 380px;
+                margin: 10px;
+                padding: 5px;
+                right: 3%;
+                background-color: aqua;
+                width: 150px;
+                border: 2px;
+                border-color:black;
+                border-style: solid;
             }
             
         </style>
@@ -102,64 +110,140 @@
         <img src="https://1.bp.blogspot.com/-KjRsM8b2114/X1en1SujmBI/AAAAAAAAAVI/Z9n6gAnrvS0ZGSukMsgwymlid0_EhAHUQCLcBGAsYHQ/s2048/tiktok%2Blogo%2B2.png" alt="" id="tk">
         <a id="chutk" href="https://www.tiktok.com/@thanhnt83st">Tới tiktok</a>
         <h3>Bảng điểm</h3>
-        <h4>HK1(2022-2023)</h4>
-        <table id="bang">
-            <tr>
-                <th>Môn</th>
-                <th>Giữa kỳ</th>
-                <th>Cuối kỳ</th>
-                <th>Tổng kết</th>
-                <th>Thang 4</th>
-                <th>Điểm chử</th>
-            </tr>
-            <tr>
-                <td>Anh văn căn bản 1</td>
-                <td>8,2</td>
-                <td>8,1</td>
-                <td>8,1</td>
-                <td>3,5</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>Đại số tuyến tính</td>
-                <td>9,5</td>
-                <td>6,7</td>
-                <td>8,1</td>
-                <td>3,5</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>Giải tích 1</td>
-                <td>10</td>
-                <td>6</td>
-                <td>8</td>
-                <td>3,5</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>Ngôn ngữ lập trình 1</td>
-                <td>10</td>
-                <td>6,6</td>
-                <td>8</td>
-                <td>3,5</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>Nhập môn công nghệ phần mềm</td>
-                <td>8,5</td>
-                <td>8,5</td>
-                <td>8,5</td>
-                <td>3,8</td>
-                <td>A</td>
-            </tr>
-            <tr>
-                <td>Triết học Mác - Lênin</td>
-                <td>8,6</td>
-                <td>6,5</td>
-                <td>7,3</td>
-                <td>3</td>
-                <td>B</td>
-            </tr>
-        </table>
+        
+        <div>
+            <details>
+                <summary id="namebang">Kết quả học kỳ I</summary>
+                <table id="bang">
+                    <tr>
+                        <th>Môn</th>
+                        <th>Giữa kỳ</th>
+                        <th>Cuối kỳ</th>
+                        <th>Tổng kết</th>
+                        <th>Thang 4</th>
+                        <th>Điểm chử</th>
+                    </tr>
+                    <tr>
+                        <td>Anh văn căn bản 1</td>
+                        <td>8,2</td>
+                        <td>8,1</td>
+                        <td>8,1</td>
+                        <td>3,5</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>Đại số tuyến tính</td>
+                        <td>9,5</td>
+                        <td>6,7</td>
+                        <td>8,1</td>
+                        <td>3,5</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>Giải tích 1</td>
+                        <td>10</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>3,5</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>Ngôn ngữ lập trình 1</td>
+                        <td>10</td>
+                        <td>6,6</td>
+                        <td>8</td>
+                        <td>3,5</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>Nhập môn công nghệ phần mềm</td>
+                        <td>8,5</td>
+                        <td>8,5</td>
+                        <td>8,5</td>
+                        <td>3,8</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Triết học Mác - Lênin</td>
+                        <td>8,6</td>
+                        <td>6,5</td>
+                        <td>7,3</td>
+                        <td>3</td>
+                        <td>B</td>
+                    </tr>
+                </table>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary id="namebang">Kết quả học kỳ II</summary>
+                <table id="bang">
+                    <tr>
+                        <th>Môn</th>
+                        <th>Giữa kỳ</th>
+                        <th>Cuối kỳ</th>
+                        <th>Tổng kết</th>
+                        <th>Thang 4</th>
+                        <th>Điểm chử</th>
+                    </tr>
+                    <tr>
+                        <td>Pháp luật đại cương</td>
+                        <td>9,2</td>
+                        <td>6,8</td>
+                        <td>7,8</td>
+                        <td>3</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Kỹ thuật lập trình</td>
+                        <td>8,8</td>
+                        <td>6,8</td>
+                        <td>7,6</td>
+                        <td>3</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Anh văn căn bản 2</td>
+                        <td>9</td>
+                        <td>5,8</td>
+                        <td>7,1</td>
+                        <td>3</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Giải tích 2</td>
+                        <td>7,5</td>
+                        <td>6</td>
+                        <td>6,8</td>
+                        <td>2,5</td>
+                        <td>C+</td>
+                    </tr>
+                    <tr>
+                        <td>Kinh tế chính trị Mác - Lênin</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>7,4</td>
+                        <td>3</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Đổi mới sáng tạo và khởi nghiệp</td>
+                        <td>9,9</td>
+                        <td>9</td>
+                        <td>9,4</td>
+                        <td>3,8</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Ngôn ngữ lập trình 2</td>
+                        <td>9</td>
+                        <td>7,5</td>
+                        <td>8,1</td>
+                        <td>3,5</td>
+                        <td>B+</td>
+                    </tr>
+                </table>
+            </details>
+        </div>
     </body>
 </html>
